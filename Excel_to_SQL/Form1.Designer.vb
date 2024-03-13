@@ -29,10 +29,8 @@ Partial Class Form1
         Label1 = New Label()
         Label2 = New Label()
         DataGridView1 = New DataGridView()
-        InvoicesBindingSource = New BindingSource(components)
         Button2 = New Button()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(InvoicesBindingSource, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Button1
@@ -89,10 +87,6 @@ Partial Class Form1
         DataGridView1.Size = New Size(643, 296)
         DataGridView1.TabIndex = 5
         ' 
-        ' InvoicesBindingSource
-        ' 
-        InvoicesBindingSource.DataSource = GetType(Invoices)
-        ' 
         ' Button2
         ' 
         Button2.Location = New Point(324, 335)
@@ -119,7 +113,6 @@ Partial Class Form1
         StartPosition = FormStartPosition.CenterScreen
         Text = "Read .xls"
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
-        CType(InvoicesBindingSource, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -131,5 +124,4 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Button2 As Button
-    Friend WithEvents InvoicesBindingSource As BindingSource
 End Class

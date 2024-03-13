@@ -1,7 +1,6 @@
 ﻿Imports System.Data.SqlClient
 Imports System.IO
 Imports ExcelDataReader
-Imports Z.Dapper.Plus
 
 Public Class Form1
 
