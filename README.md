@@ -1,5 +1,7 @@
 # Excel Importer for VB.Net Windows Forms Application
 
+![Excel Importer Screenshot](https://github.com/EthanB87/Excel_to_SQL/blob/master/Screenshot%202024-03-13%20195956.png)
+
 This application allows you to import Excel files and sheets into a VB.Net Windows Forms Application. You can then import the data from the selected sheet into an SQL Server database.
 
 ## Requirements
